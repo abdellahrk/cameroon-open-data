@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of the Cameroon Open Data project.
+ *
+ * (c) Abdellah (Abdel) Ramadan
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace App\Api;
 
 use App\Service\YamlParserServiceInterface;
