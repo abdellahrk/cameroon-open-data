@@ -19,8 +19,17 @@ readonly class YamlParserService implements YamlParserServiceInterface
             return Yaml::parse($content);
         } catch (ParseException $e) {
             $this->logger->error("Cannot parse Yaml: ".$e->getMessage());
+            throw new ParseException('Cannot parse Yaml: '.$e->getMessage());
         }
+    }
 
-        return [];
+    public function parseFile(string $filePath): array
+    {
+        try {
+            return Yaml::parseFile($filePath);
+        } catch (ParseException $e) {
+            $this->logger->error("Cannot parse Yaml: ".$e->getMessage());
+            throw new ParseException('Cannot parse Yaml: '.$e->getMessage());
+        }
     }
 }

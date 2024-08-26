@@ -22,7 +22,11 @@ class RegionController
     public function getRegions(): JsonResponse
     {
         $locale = $this->requestStack->getCurrentRequest()?->getLocale();
-        $data = $this->yamlParserService->parse(file_get_contents($this->publicDir.'/'.$locale.'/regions.yaml'));
-        return new JsonResponse($data);
+        try {
+            $data = $this->yamlParserService->parseFile($this->publicDir . '/' . $locale . '/regions.yaml');
+            return new JsonResponse($data);
+        } catch (\Exception $exception) {
+            return new JsonResponse(['error' => $exception->getMessage()], 500);
+        }
     }
 }
