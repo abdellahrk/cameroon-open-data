@@ -7,4 +7,5 @@ api:
     resource:
         path: ../src/Api/Controller/
         namespace: App\Api\Controller
+    prefix: api/
     type: attribute
