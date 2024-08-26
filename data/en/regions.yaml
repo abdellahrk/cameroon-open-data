@@ -1,0 +1,37 @@
+title: "Regions"
+description: |
+  The list of all regions in Cameroon and their capitals with other 
+  useful information
+
+data:
+  regions:
+    - name: "Adamawa"
+      capital: "Ngaoundere"
+      divisions:
+        - "Diamaré"
+        - "Logone-et-Chari"
+        - "Mayo-Danay"
+        - "Mayo-Kani"
+        - "Mayo-Sava"
+        - "Mayo-Tsanaga"
+        - "Municipalities":
+          - Bongo
+
+    - name: "Centre"
+      capital: "Yaounde"
+    - name: "East"
+      capital: "Bertoua"
+    - name: "Far North"
+      capital: "Maroua"
+    - name: "Litorral"
+      capital: "Douala"
+    - name: "North"
+      capital: "Garoua"
+    - name: "Northwest"
+      capital: "Bamenda"
+    - name: "South"
+      capital: "Ebolowa"
+    - name: "Southwest"
+      capital: "Buea"
+    - name: "West"
+      capital: "Bafoussam"
