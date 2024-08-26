@@ -1,0 +1,19 @@
+cameroon:
+    name: Cameroon
+    iso: 
+        - alpha2: CM
+          alpha3: CMR
+          short_name: Cameroon
+          fullname: The Republic of Cameroon
+          numeric_code: 120
+          independent: "Yes"
+    languages: ["English", "French"]
+    phone_code: "+237"
+    internet_domain: ".cm"
+    capital: "Yaounde"
+    currency: 
+        - code: "XAF"
+          symbol: "F.CFA"
+          banknotes: ["500", "2,000", "5,000", "10,000"]
+          central_bank: "Bank of Central African States"
+    

@@ -1,0 +1,14 @@
+cameroun:
+    nom: Cameroun
+    iso:
+        -   alpha2: "CM"
+            alpha3: "CMR"
+            nom_court: "Cameroon"
+            nom_complet: "The Republic of Cameroon"
+            code_numerique: 120
+            indépendent: "Oui"
+    langues: [ "English", "French" ]
+    indicatif_téléphonique: "+237"
+    domaine_internet: ".cm"
+    capitale: "Yaounde"
+    
