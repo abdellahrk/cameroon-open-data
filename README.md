@@ -4,50 +4,22 @@ This project is aimed to be a central hub for all public data in Cameroon. It's 
 The project kicks off just with the API version where data can be accessed through endpoints e.g `https://base-url/api/regions` and a sample response of 
 ```
 "title": "Regions",
-    "description": "The list of all regions in Cameroon and their capitals with other  useful information\n",
-    "data": {
-        "regions": [
-            {
-                "name": "Adamawa",
-                "capital": "Ngaoundere",
-            },
-            {
-                "name": "Centre",
-                "capital": "Yaounde"
-            },
-            {
-                "name": "East",
-                "capital": "Bertoua"
-            },
-            {
-                "name": "Far North",
-                "capital": "Maroua"
-            },
-            {
-                "name": "Litorral",
-                "capital": "Douala"
-            },
-            {
-                "name": "North",
-                "capital": "Garoua"
-            },
-            {
-                "name": "Northwest",
-                "capital": "Bamenda"
-            },
-            {
-                "name": "South",
-                "capital": "Ebolowa"
-            },
-            {
-                "name": "Southwest",
-                "capital": "Buea"
-            },
-            {
-                "name": "West",
-                "capital": "Bafoussam"
-            }
-        ]
+"description": "The list of all regions in Cameroon and their capitals with other  useful information\n",
+"data": {
+    "regions": [
+        {
+            "name": "Adamawa",
+            "capital": "Ngaoundere",
+        },
+        {
+            "name": "Centre",
+            "capital": "Yaounde"
+        },
+        {
+            "name": "East",
+            "capital": "Bertoua"
+        },
+        ...
     }
 }
 ```
